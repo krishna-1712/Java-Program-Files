@@ -24,6 +24,7 @@ public class Automatic_Teller_Machine {
 
         if (pin != ATM_PIN) {
             System.out.println("Invalid Pin");
+            
             // System.out.println("If you want to reset the password enter 1 and to try
             // again enter 2");
             // int passwordUserOption = scan.nextInt();
@@ -31,9 +32,13 @@ public class Automatic_Teller_Machine {
             // if(passwordUserOption == 1){
             // ATM_PIN = resetPassword();
             // }
-
         }
-        int choice;
+            else{
+  int choice;
+            
+
+        
+      
         do {
 
             System.out.println("1. Deposite.");
@@ -123,4 +128,5 @@ public class Automatic_Teller_Machine {
         } while (choice != 4);
         scan.close();
     }
+}
 }
